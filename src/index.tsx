@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import message from './message';
+import App from './components/App';
 
 const root = document.getElementById('root');
 if (root !== null) {
-  ReactDOM.createRoot(root).render(<p>{message}</p>);
+  ReactDOM.createRoot(root).render(<App />);
 }
